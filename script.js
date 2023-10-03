@@ -2,7 +2,7 @@
 let levelelement = document.getElmentBy("level");
 let level = 1;
 while(true){
-	if(levelelement.tagName == "HTML")
+	if(levelelement.tagName === "HTML")
 	{
 		break;
 	}
@@ -13,4 +13,4 @@ while(true){
 }
 
 
-alert("The level of the element is : " + level);
+	alert(`The level of the element is : ${level}`);
