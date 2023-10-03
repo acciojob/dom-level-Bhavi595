@@ -1,5 +1,5 @@
 //your JS code here. If required.
-let levelelement = document.getElmentBy("level");
+let levelelement = document.getElementById("level");
 let level = 1;
 while(true){
 	if(levelelement.tagName === "HTML")
